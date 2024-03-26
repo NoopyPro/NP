@@ -7,3 +7,7 @@ class usable:
 
 class weapon:
     
+    def __init__(self, damage, stamina_use, speed):
+        self.damage = damage
+        self.stamina_use = stamina_use
+        self.speed = speed
