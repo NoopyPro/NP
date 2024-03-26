@@ -18,3 +18,4 @@ class spell:
         self.damage = damage
         self.mana_use = mana_use
         self.spell_speed = spell_speed
+        
