@@ -11,3 +11,10 @@ class weapon:
         self.damage = damage
         self.stamina_use = stamina_use
         self.speed = speed
+
+class spell:
+
+    def __init__(self, damage, mana_use, speed):
+        self.damage = damage
+        self.mana_use = mana_use
+        self.speed = speed
