@@ -7,14 +7,14 @@ class usable:
 
 class weapon:
     
-    def __init__(self, damage, stamina_use, speed):
+    def __init__(self, damage, stamina_use, weapon_speed):
         self.damage = damage
         self.stamina_use = stamina_use
-        self.speed = speed
+        self.weapon_speed = weapon_speed
 
 class spell:
 
-    def __init__(self, damage, mana_use, speed):
+    def __init__(self, damage, mana_use, spell_speed):
         self.damage = damage
         self.mana_use = mana_use
-        self.speed = speed
+        self.spell_speed = spell_speed
